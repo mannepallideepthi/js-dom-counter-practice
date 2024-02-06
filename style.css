@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background:linear-gradient(60deg,pink,violet)  fixed no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#deepu{
+    background-color: white;
+    padding:20px;
+    margin:2px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+button{
+    border:none;
+    border-radius:5px ;
+    color: white;
+    transition: all 1s ease-in;
+    padding:5px;
+}
+#yashu{
+    background-color: green;
+
+}
+#yashu:hover{
+    background-color: rgb(75, 201, 75);
+}
+
+#janu{
+    background-color: rgb(224, 11, 11);
+}
+#janu:hover{
+    background-color: rgb(91, 4, 21);
+}
+h1{
+    background-color:orange ;
+    color: white;
+    padding:6px;
+}
